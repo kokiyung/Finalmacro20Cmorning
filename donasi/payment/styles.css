@@ -1,0 +1,327 @@
+/*navbar */
+/*navbar */
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #333; /* Warna latar belakang navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Membuat bayangan dengan offset x=0, y=4px, blur=6px, dan warna RGBA */
+    padding: 10px;
+}
+.containernav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.nav-link:hover {
+    background-color: #4EA4AA;
+    border-radius: 20px;
+}
+
+.nav-item a:hover{
+  color: white;
+}
+
+.nav-link.active {
+    background-color:#4EA4AA; /* Warna latar belakang biru */
+    border-radius: 20px;
+  }
+
+  .tautan-bersinar {
+    text-decoration: none; /* Menghapus garis bawah bawaan pada tautan */
+    position: relative; /* Diperlukan untuk efek bersinar */
+  }
+  
+  .tautan-bersinar::before {
+    content: ''; /* Menambahkan elemen pseudo sebelum teks */
+    position: absolute; /* Mengatur posisi elemen pseudo */
+    width: 100%; /* Lebar elemen pseudo */
+    height: 2px; /* Ketebalan efek bersinar */
+    bottom: 0; /* Muncul di bagian bawah teks */
+    background-color: #4EA4AA; /* Warna bersinar, bisa Anda sesuaikan */
+    transform: scaleX(0); /* Efek awal: bersinar tak terlihat */
+    transform-origin: 0 0; /* Mengatur titik awal transformasi */
+    transition: transform 0.3s; /* Animasi transformasi */
+  }
+  
+  .tautan-bersinar:hover::before {
+    transform: scaleX(1); /* Efek saat dihover: bersinar */
+  }
+
+.floating-profile a :hover{
+    color: white;
+}
+
+.floating-profile {
+    z-index: 999;
+    display: none;
+    position: fixed;
+    top: 33%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+}
+
+.floating-profile img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.close-button:hover {
+    background-color:#4EA4AA;
+}
+
+.profilbutton {
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+.profilbutton:hover {
+    background-color:#4EA4AA;
+}
+
+button#openButton {
+    color: #fff;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+button img{
+    width: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button#openButton:hover {
+    background-color: #4EA4AA;
+}
+/*searchbar*/
+.search-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+	margin-left: 20px;
+}
+
+#search-input {
+    border: none;
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-button {
+    background-color: #4EA4AA;
+    color: #fff;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#search-button:hover {
+    background-color: #208e96;
+}
+/*batas searchbar*/
+
+/* ARTIKEL TOP */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #4EA4AA;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+/* isi payment */
+.container .payment-method {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .virtual {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputform input[type="number"]{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 50px;
+    background-color: #2E7186;
+    color: white;
+    border: none;
+
+}
+.method {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 70px;
+    gap: 10px;
+}
+
+.method img {
+    max-width: 100px;
+    height: 70px;
+}
+
+.custom-label {
+    display: inline-block;
+    padding: 5px 50px;
+    border: 2px solid #ffffff; /* Warna border biru */
+    background-color: #4EA4AA;
+    color: white;
+    width: 600px;
+    border-radius: 10px; /* Radius border 10px (sesuaikan sesuai kebutuhan) */
+    text-align: center;
+}
+
+#qr-code img{
+    width: 200px;
+    height: 200px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+
+
+.upload-button {
+    margin-top: 20px;
+}
+
+.upload-button input[type="file"] {
+    display: none;
+}
+
+.upload-button label {
+    background-color: #C7D6D7;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.upload-button label:hover {
+    background-color: white;
+    
+}
+.button {
+    background-color: #C7D6D7;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+.button:hover {
+    background-color: white;
+}
+
+.qr-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.qr-code img {
+    width: 200px; /* Lebar gambar QR Code */
+}
+
+/* footer */
+footer {
+    margin-top: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #4EA4AA;
+    margin-top: 30px;
+}
+.footertext {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+}
+
+.social-icons {
+    margin: 25px 0px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+.social-icons a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 35px;
+    color: #4EA4AA;
+}
+.social-icons a:hover{
+    background-color: #e6c389;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}

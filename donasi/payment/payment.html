@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="z-index: 999; width: 100%; position: fixed; margin-top: -100px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html" style="margin-left: 50px;">BersamaKita</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="containernav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../../index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../about/about.html">Tentang kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../donasi.html">Donasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../campaign/campaign.html">Campaign</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../artikel/artikel.html">Artikel & Edukasi</a>
+            </li>
+          </ul>
+          <div class="search-container">
+            <input type="text" id="search-input" placeholder="Cari..." />
+            <button id="search-button">Cari</button>
+          </div>
+          <div class="floating-profile" id="floatingProfile">
+            <button class="close-button" id="closeButton">X</button>
+            <img src="https://www.wowkeren.com/display/images/photo/2023/07/01/00484275.webp" alt="Avatar">
+            <button class="profilbutton" id="profilbutton"><a style="color: black;"
+                href="../Profil dan riwayat/Profil.html">Profil Saya</a></button>
+            <h5>Ferdinan Samosir</h5>
+            <p>ferdinansamosir@gmail.com</p>
+            <p>_________________________________</p>
+            <a href="../Profil dan riwayat/Profil.html">
+              <p style="color: black; text-decoration: none;">Riwayat Donasi Saya</p>
+            </a>
+            <a style="color: rgb(182, 0, 0);" href="../index tanpa login.html">Keluar</a>
+          </div>
+          <button id="openButton">
+            <img src="https://cdn-icons-png.flaticon.com/128/2976/2976215.png" alt="Tombol Gambar">
+          </button>
+
+
+          <script src="../script.js"></script>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- ISI PAYMENT -->
+  <div class="container">
+    <div class="payment-method">
+      <h3 style="color: white;"><b>Nominal Donasi</b></h3>
+      <div class="inputform">
+      <form>
+        <label style="color: white; font-weight: bold; margin-right: 5px;">RP</label>
+        <input type="number" id="amount" name="amount" required value="RP. " style="font-size: 50px;"></input>
+      </form>
+    </div>
+    <div class="sidetitleform">
+      <p style="margin-top: 5px; margin-bottom: -10px; color: white;">PILIH METODE PEMBAYARAN</p>
+    </div>
+    </div>
+      <div class="method">
+        <div class="optionmetode">
+        <input type="radio" name="paymentMethod" value="bank_transfer">
+        <img src="https://logos-download.com/wp-content/uploads/2016/06/Bank_Mandiri_logo_fon.png" alt="PilihanBank1">
+    </div>
+        <div class="optionmetode">
+        <input type="radio" name="paymentMethod" value="bank_transfer">
+        <img src="https://logowik.com/content/uploads/images/bni-bank-negara-indonesia8078.logowik.com.webp">
+    </div>
+        <div class="optionmetode">
+        <input type="radio" name="paymentMethod" value="bank_transfer">
+        <img src="https://logowik.com/content/uploads/images/bca-bank-central-asia1235.jpg" alt="PilihanBank3">
+    </div>
+        <div class="optionmetode">
+        <input type="radio" name="paymentMethod" value="bank_transfer">
+        <img src="https://logowik.com/content/uploads/images/bri-20209664.logowik.com.webp" alt="PilihanBank4">
+    </div>
+        <div class="optionmetode">
+        <input type="radio" name="paymentMethod" value="bank_transfer" alt="PilihanBank2">
+        <img src="https://logowik.com/content/uploads/images/gopay7196.jpg" alt="PilihanBank5">
+    </div>
+        <div class="optionmetode">
+        <input type="radio" name="paymentMethod" value="bank_transfer">
+        <img src="https://statik.tempo.co/data/2021/11/10/id_1065200/1065200_720.jpg" alt="PilihanBank6">
+    </div>
+        <div class="optionmetode">
+        <input type="radio" name="paymentMethod" value="bank_transfer">
+        <img src="https://cdn.antaranews.com/cache/1200x800/2022/04/25/dana.jpg.webp" alt="PilihanBank7">
+    </div>
+  </div>
+  <div class="upload-button" style="display: flex; justify-content:space-around; align-items: center;">
+    <button class="button" type="submit"><a style="color: black;" href="payment done.html">Lanjutkan</a></button>
+  </div>
+  </div>
+  </body>
+  
+  
+  <!-- FOOTER -->
+  <footer>
+    <br /><br />
+    <div class="footertext">
+      <div class="text1">
+        <p>
+          Beranda <br />
+          Artikel <br />
+          Campaign <br />
+          Privasi
+        </p>
+      </div>
+      <div class="text1">
+        <p>
+          Dukungan <br />
+          FAQ <br />
+          Kontak <br />
+          Privasi
+        </p>
+      </div>
+      <div class="text1">
+        <p>
+          Follow <br />
+          Instagram <br />
+          Facebook <br />
+          Twitter
+        </p>
+      </div>
+    </div>
+    <div class="social-icons">
+      <a href="#"> <i class="fa fa-facebook-square"></i></a>
+      <a href="#"> <i class="fa fa-whatsapp"></i></a>
+      <a href="#"> <i class="fa fa-instagram"></i></a>
+      <a href="#"> <i class="fa fa-twitter"></i></a>
+    </div>
+    <p style="text-align: center; color: white">
+      &copy; 2023 BersamaKita. All rights reserved
+    </p>
+  </footer>
+</body>
+
+</html>

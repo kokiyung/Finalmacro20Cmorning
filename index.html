@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="halutama.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shorcut icon" href="LOGO.png" />
+    <title>Document</title>
+  </head>
+
+  <!-- Navbar -->
+  <nav
+    class="navbar navbar-expand-lg bg-body-tertiary"
+    style="z-index: 999; width: 100%; position: fixed"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" style="margin-left: 50px"
+        >BersamaKita</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="containernav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about/about.html">Tentang kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="donasi/donasi.html">Donasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="campaign/campaign.html">Campaign</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="artikel/artikel.html"
+                >Artikel & Edukasi</a
+              >
+            </li>
+          </ul>
+          <div class="search-container">
+            <input type="text" id="search-input" placeholder="Cari..." />
+            <button id="search-button">Cari</button>
+          </div>
+          <div class="floating-profile" id="floatingProfile">
+            <button class="close-button" id="closeButton">X</button>
+            <img
+              src="https://www.wowkeren.com/display/images/photo/2023/07/01/00484275.webp"
+              alt="Avatar"
+            /><br />
+            <a
+              href="Profil dan riwayat/Profil.html"
+              style="color: black"
+              class="tautan-bersinar"
+              >Profil Saya</a
+            >
+            <h5>Ferdinan Samosir</h5>
+            <p>ferdinansamosir@gmail.com</p>
+            <p>_________________________________</p>
+            <a
+              href="Profil dan riwayat/Profil.html"
+              style="color: black"
+              class="tautan-bersinar"
+              >Riwayat Donasi Saya</a
+            >
+            <br /><a
+              href="index tanpa login.html"
+              style="color: red"
+              class="tautan-bersinar"
+              >Keluar</a
+            >
+          </div>
+          <button id="openButton">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/2976/2976215.png"
+              alt="Tombol Gambar"
+            />
+          </button>
+
+          <script src="script.js"></script>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <body>
+    <!-- KONTEN -->
+    <div class="sectiontop">
+      <div class="conten">
+        <div class="jumbotron">
+          <h1 class="jumbatontext" style="color: white">
+            BersamaKita <br />
+            Sosial dan Bencana Alam
+          </h1>
+          <p class="lead" style="text-align: justify">
+            Bergabunglah dengan misi kami untuk membuat dunia menjadi tempat
+            yang lebih baik. Donasi Anda dapat membuat perbedaan dalam kehidupan
+            seseorang.
+          </p>
+          <div class="share">
+            <span>share</span>
+            <nav>
+              <a href="https://www.facebook.com"
+                ><i class="fa fa-facebook" aria-hidden="true"></i
+              ></a>
+              <a href="https://www.twitter.com"
+                ><i class="fa fa-twitter" aria-hidden="true"></i
+              ></a>
+              <a href="https://www.linkedin.com"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
+              <a href="https://www.gmail.com"
+                ><i class="fa fa-google-plus" aria-hidden="true"></i
+              ></a>
+            </nav>
+          </div>
+
+          <script src="share.js"></script>
+        </div>
+        <div class="logo" style="margin-top: 35px">
+          <img src="LOGO.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- KONTEN 2 -->
+    <div class="secondkonten">
+      <div class="titlesection">
+        <h3>DONASI TERKINI</h3>
+      </div>
+      <div class="card mb-3" style="margin-left: 50px; margin-right: 50px">
+        <div class="row g-0" style="height: 236px">
+          <div class="col-md-4">
+            <img
+              src="https://akcdn.detik.net.id/community/media/visual/2023/01/28/banjir-bandang-manado-2023-sebab-jumlah-korban-hingga-data-kerusakan-1_169.jpeg?w=700&q=90"
+              class="img-fluid rounded-start"
+              alt="..."
+              style="height: 236px; width: 470px;"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Banjir Bandang Manado</h5>
+              <p class="card-text">
+                Sulawesi Utara, sejak 27 Januari 2023. Bencana alam tersebut
+                menyebabkan ratusan rumah terendam air dan berdampak pada ribuan
+                kepala keluarga (KK). Selain itu, banjir bandang Manado itu juga
+                mengakibatkan korban jiwa
+              </p>
+              <div class="donasi">
+                <div class="donasikiri">
+                  <p>Terkumpul</p>
+                  <p>Rp. 200.000.000</p>
+                </div>
+                <div class="donasikanan">
+                  <p>Dana Dibutuhkan</p>
+                  <p>Rp. 250.000.000</p>
+                </div>
+              </div>
+              <div
+                style="
+                  width: 100%;
+                  background-color: #d9d9d9;
+                  border-radius: 10px;
+                  height: 10px;
+                "
+              >
+                <div
+                  style="
+                    width: 50%;
+                    background-color: #4ea4aa;
+                    border-radius: 10px;
+                    height: 10px;
+                  "
+                ></div>
+              </div>
+              <p></p>
+              <div class="donasi">
+                <div class="donasikiri">
+                  <p>100.Donatur</p>
+                </div>
+                <a
+                  href="donasi/isidonasi3.html"
+                  class="btn btn-primary"
+                  style="background-color: #4ea4aa"
+                  >Donasi</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="margin-left: 50px; margin-right: 50px">
+        <div class="row g-0" style="height: 236px">
+          <div class="col-md-4">
+            <img
+              src="https://cdn1-production-images-kly.akamaized.net/JJQPO9aXBOTVmqSL9iIyCwmq03A=/640x360/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4382831/original/053568900_1680594072-tanah_longsor_di_Probolinggo.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+              style="height: 236px; width: 470px;"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tanah Longsor Probolinggo</h5>
+              <p class="card-text">
+                Maret 2023 - Badan Penanggulangan Bencana Daerah (BPBD)
+                Probolinggo mencatat bencana alam yang terjadi di wilayah
+                setempat selama tahun 2023 ini mencapai 48 kali bencana alam.
+                Dari jumlah tersebut bencana tanah longsor mendominasi.
+              </p>
+              <div class="donasi">
+                <div class="donasikiri">
+                  <p>Terkumpul</p>
+                  <p>Rp. 675.890.888</p>
+                </div>
+                <div class="donasikanan">
+                  <p>Dana Dibutuhkan</p>
+                  <p>Rp. 1.500.000.000</p>
+                </div>
+              </div>
+              <div
+                style="
+                  width: 100%;
+                  background-color: #d9d9d9;
+                  border-radius: 10px;
+                  height: 10px;
+                "
+              >
+                <div
+                  style="
+                    width: 50%;
+                    background-color: #4ea4aa;
+                    border-radius: 10px;
+                    height: 10px;
+                  "
+                ></div>
+              </div>
+              <p></p>
+              <div class="donasi">
+                <div class="donasikiri">
+                  <p>100.Donatur</p>
+                </div>
+                <a
+                  href="donasi/isidonasi.html"
+                  class="btn btn-primary"
+                  style="background-color: #4ea4aa"
+                  >Donasi</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KONTEN 3 -->
+    <div class="titlesection">
+      <h3>Artikel & Edukasi</h3>
+    </div>
+    <div class="artikelsection">
+      <div class="card" style="width: 18rem; text-align: center">
+        <img
+          src="https://cdn.medcom.id/dynamic/content/2020/12/14/1220423/woLm14xEFs.jpg?w=480"
+          class="card-img-top"
+          alt="..."
+          style="height: 250px"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Edukasi Sebab Akibat Banjir</h5>
+          <br />
+          <p class="card-text">
+            Banjir merupakan peristiwa ketika air menggenangi suatu wilayah yang
+            biasanya tidak tergenangi air dalam jangka waktu tertentu. Banjir
+            biasanya terjadi karena curah hujan turun terus menerus.
+          </p>
+          <br />
+          <a class="button" href="artikel/isiartikel.html">Baca Selengkapnya</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; text-align: center">
+        <img
+          src="https://asset.kompas.com/crops/cKW0Rlts9q27vXhl_gho26h6bm0=/0x0:1992x1328/750x500/data/photo/2020/03/11/5e689e40e618e.jpg"
+          class="card-img-top"
+          alt="..."
+          style="height: 250px"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Pelajari tanda-tanda tsunami</h5>
+          <p class="card-text">
+            Tsunami merupakan gelombang air laut besar yang dipicu oleh pusaran
+            air bawah laut karena pergeseran lempeng, tanah longsor, erupsi
+            gunungapi, dan jatuhnya meteor.
+          </p>
+          <br /><br />
+          <a class="button" href="artikel/isiartikel.html">Baca Selengkapnya</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; text-align: center">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu94FLOtz_Beb7T_Az3vPk4MCIz1pntj8C2w&usqp=CAU"
+          class="card-img-top"
+          alt="..."
+          style="height: 250px"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Waspada bahaya gelombang pasang</h5>
+          <p class="card-text">
+            Gelombang pasang adalah gelombang air laut yang melebihi batas
+            normal, dan dapat menimbulkan bahaya di laut maupun di darat
+            terutama daerah pinggir pantai.
+          </p>
+          <br />
+          <a class="button" href="artikel/isiartikel.html">Baca Selengkapnya</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; text-align: center">
+        <img
+          src="https://akcdn.detik.net.id/community/media/visual/2018/09/29/480444fa-1388-425a-9b2e-4e98ea9bc61d.jpeg?w=700&q=90"
+          class="card-img-top"
+          alt="..."
+          style="height: 250px"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Berbagai macam bencana alam</h5>
+          <p class="card-text">
+            Pada tahun 2018, Indonesia mengalami berbagai bencana alam. Mulai
+            dari gempa di Lombok, tsunami di Palu, banjir dan longsor di
+            Sumatera, gunung meletus di beberapa wilayah serta masih banyak yang
+            lainnya.
+          </p>
+          <a class="button" href="artikel/isiartikel.html">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <br /><br />
+      <div class="footertext">
+        <div class="text1">
+          <p>
+            Beranda <br />
+            Artikel <br />
+            Campaign <br />
+            Privasi
+          </p>
+        </div>
+        <div class="text1">
+          <p>
+            Dukungan <br />
+            FAQ <br />
+            Kontak <br />
+            Privasi
+          </p>
+        </div>
+        <div class="text1">
+          <p>
+            Follow <br />
+            Instagram <br />
+            Facebook <br />
+            Twitter
+          </p>
+        </div>
+      </div>
+      <div class="social-icons">
+        <a href="#"> <i class="fa fa-facebook-square"></i></a>
+        <a href="#"> <i class="fa fa-whatsapp"></i></a>
+        <a href="#"> <i class="fa fa-instagram"></i></a>
+        <a href="#"> <i class="fa fa-twitter"></i></a>
+      </div>
+      <p style="text-align: center; color: white">
+        &copy; 2023 BersamaKita. All rights reserved
+      </p>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>

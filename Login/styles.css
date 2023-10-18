@@ -1,0 +1,123 @@
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.label {
+    font-size: 20px;
+}
+/* FORM */
+.containerisi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerisi .logoweb img {
+    height: 450px;
+    padding-top: 30px;
+}
+.formtabel {
+    margin-top: 0;
+}
+.buttonform {
+    width: 100%;
+    height: 30px;
+    background-color: #4EA4AA;
+    text-align: center;
+    border-radius: 2px;
+}
+.buttonform a{
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover {
+    background-color: #4EA4AA;
+    border-radius: 20px;
+}
+
+.nav-link.active {
+    background-color:#4EA4AA; /* Warna latar belakang biru */
+    border-radius: 20px;
+  }
+
+.nav-item a:hover{
+  color: white;
+}
+button#openButton:hover {
+    background-color: #4EA4AA;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4EA4AA;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #4EA4AA;
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+
+  /* Efek hover saat kursor berada di atas tombol */
+  .button:hover {
+    background-color:#208e96;
+  }
+
+/* footer */
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #4EA4AA;
+    padding-top: 50px;
+}
+.footertext {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+}
+
+.social-icons {
+    margin: 25px 0px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+.social-icons a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 35px;
+    color: #4EA4AA;
+}
+.social-icons a:hover{
+    background-color: #e6c389;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+a{
+    text-decoration: none;
+}

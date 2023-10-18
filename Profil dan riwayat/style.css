@@ -1,0 +1,294 @@
+/*navbar */
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #333; /* Warna latar belakang navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Membuat bayangan dengan offset x=0, y=4px, blur=6px, dan warna RGBA */
+    padding: 10px;
+}
+.containernav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link:hover {
+    background-color: #4EA4AA;
+    border-radius: 20px;
+}
+
+.nav-item a:hover{
+  color: white;
+}
+
+.nav-link.active {
+    background-color:#4EA4AA; /* Warna latar belakang biru */
+    border-radius: 20px;
+  }
+
+.buttonout {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e40000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+  /* Efek hover saat kursor berada di atas tombol */
+  .buttonout:hover {
+    background-color: #c00000;
+  }
+
+
+
+.floating-profile {
+    z-index: 999;
+    display: none;
+    position: fixed;
+    top: 33%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+}
+
+.floating-profile img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.close-button:hover {
+    background-color:#4EA4AA;
+}
+
+.profilbutton {
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+.profilbutton:hover {
+    background-color:#4EA4AA;
+}
+
+button#openButton {
+    color: #fff;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+button img{
+    width: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button#openButton:hover {
+    background-color: #4EA4AA;
+}
+/*searchbar*/
+.search-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+	margin-left: 20px;
+}
+
+#search-input {
+    border: none;
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-button {
+    background-color: #4EA4AA;
+    color: #fff;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#search-button:hover {
+    background-color: #208e96;
+}
+/*batas searchbar*/
+
+
+.profil {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: #fff;
+    max-width: 1300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.foto img {
+    width: 200px;
+	height: 200px;
+    border-radius: 50%;
+	
+}
+
+.informasi{
+	margin-left: 80px;
+}
+
+
+.button {
+    background-color: #4EA4AA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+	margin-top: 10px;
+	width: 130px;
+
+}
+
+
+
+button:hover {
+    background-color: #4EA4AA;
+}
+.button1 {
+    background-color: #ebebeb;
+    color: #000000;
+    padding: 5x 5px;
+    border-radius: 5px;
+    cursor: pointer;
+	width: 130px;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    border: none;
+   
+
+}
+
+.button1:hover {
+    background-color: #4EA4AA;
+}
+
+h2 {
+    margin-top: 10px;
+	margin-left: 30px;
+}
+
+.donasi {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.donasi-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.donasi-tanggal {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.donasi-nama {
+    margin: 10px 0;
+}
+
+.donasi-jumlah {
+    color: #555;
+}
+
+/* footer */
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #4EA4AA;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+.footertext {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+}
+
+.social-icons {
+    margin: 25px 0px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+.social-icons a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 35px;
+    color: #4EA4AA;
+}
+.social-icons a:hover{
+    background-color: #e6c389;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
